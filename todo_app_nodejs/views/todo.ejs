@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ToDo List</title
+      <link rel="stylesheet" href="/assets/styles.css">
+      <style media="screen">
+        body
+        {
+           font-family: verdana;
+           font-weight: 100;
+           background-color: #0d1521;
+        }
+
+
+        #h1
+        {
+          font-family: verdana;
+          color: grey;
+        }
+
+
+        .container{
+
+  	   width:960px;
+  	 	background: #fff;
+  	 	margin: 0 auto;
+  	 	border-radius:6px;
+  	 	overflow: hidden;
+  	 	border: 1px solid grey;
+  	 	padding: 0 0 20px;
+  	 	box-sizing: border-circle;
+  	    box-shadow : 0px 1px 6px rgba(0,0,0,0.2);
+        }
+
+        button
+        {
+          background:#23282e;
+          color: white;
+          border-radius: 5px;
+        }
+        .form-control
+        {
+          width:90%;
+          border-height:50px;
+
+          border-radius:5px;
+        }
+        .list-group-item:hover
+        {
+          text-decoration:underline;
+            background: rgba(0,0,0,0.2);
+        }
+
+
+      </style>
+  </head>
+  <body>
+                <div class="container">
+                    <h1 >ToDo List App</h1>
+
+
+                         <form  action="/todo" method="post" id="form">
+                                 <input type="text" name="items" class="form-control" placeholder="Add items..."required>
+                                 <button type="submit" class="btn btn-primary">Add items</button>
+                         </form>
+
+
+                     <div class="list-group">
+                         <ul>
+
+                           <%for(var i=0;i<items.length;i++)
+                           {%>
+
+                               <li class="list-group-item"><%=items[i].items%></li>
+
+                           <%}%>
+
+                         </ul>
+
+                     </div>
+                </div>
+  </body>
+</html>

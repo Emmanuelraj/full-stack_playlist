@@ -1,0 +1,13 @@
+toDoApp
+  step1 :npm init enter basic information about [project]
+  step2 : install dependencies cmd (npm install required lib
+       npm install express ejs mongoose --save
+  step3 :remember ejs ,jade are view templating engines default locations are views directory
+  step 4 : import required libraries in app.js(which entry.js)
+  step 5: implement mvc pattern to reduce the conflict
+  step 6: create  all type of controller.js in controllers folder
+           (usage controls the flow of model service db)
+           module.exports = function
+  step 7:create todo.ejs in view
+  step 8: create mlab in sandbox;
+  step 9: import body-parser for post method to support
