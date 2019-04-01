@@ -1,4 +1,4 @@
-# full_stack_playlist
+# node_js_playlist
 we will cover mini project using mean stack step by step branches
 
 
