@@ -17,7 +17,7 @@ module.exports = function (app)
 /**
 Get Method render toDoGet
 */
-       app.get('/',function (request,response)
+       app.get('/todoGet',function (request,response)
        {
 
          console.log('todoGet Method');
@@ -53,7 +53,7 @@ Get Method render toDoGet
                  }
                  else {
                    console.log('record saved');
-                   response.redirect('/')
+                   response.redirect('/todoGet')
                  }
 
               })
