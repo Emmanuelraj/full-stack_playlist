@@ -1,4 +1,4 @@
-# full-stack_playlist
+# full_stack_playlist
 we will cover mini project using mean stack step by step branches
 
 
