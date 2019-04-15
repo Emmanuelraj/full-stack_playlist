@@ -1,5 +1,5 @@
-# node_js_playlist
-we will cover login mini project
+# node_js_passport_login
+node js express passport register login
 
 # command 
       npm install
